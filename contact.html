@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/styleContact.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script src="lib/jquery-3.2.0.min.js"></script>
+	<script src="js/app.js"></script> 
+	<Script type="text/jaascript" scr="validation.js"></script>
+	 
+</head>
+<body>
+<ul class="topnav">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="about_me.html">Bio</a></li>
+    <li><a href="skill_set.html">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+<div class= "contactform ">
+<form action="https://formspree.io/emr0451@gmail.com "
+      method="POST"> 
+<div id="error"></div>
+<h1> Contact Form</h1>
+
+ <label for = "firstname">First Name</label>
+ <input id ="fname" type = "text" name="firstname" placeholder="First Name"> 
+ <label for = "lastname">Last Name</label>
+ <input type ="text" name = "lastname" placeholder="Last Name">
+
+
+
+
+<label for = "email">Email</label>
+ <input type = "text" name = "email" placeholder ="email Address">
+
+ <label for="reason">Reason Of Contact</label>
+ <select id="reason">
+ 
+ </select>
+
+
+
+<label for="subject">Suject</label>
+<input type = "text" name = "subject" placeholder="subject">
+<label for="description">Message</label>
+<textarea name = "description "  placeholder = "Description"></textarea><br>
+<label for= "button"></label>
+<button class="btn" id="btn" onClick="Submit() >Send</button>
+<h2>Links</h2>
+<ol id="links">
+</ol>
+
+</form>
+</body>
+
+
+</html>

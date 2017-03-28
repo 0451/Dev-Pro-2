@@ -1,0 +1,158 @@
+
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #0623af;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+
+    img{
+        max-width: 50%;
+        height: auto;
+
+    }
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #333333;
+    clear: left;
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+}
+
+img {
+
+    margin-left: 40%;
+    margin-top: 7%;
+
+}
+
+
+.button{
+
+    background-color: #4145af;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+.rcorner {
+    border-radius: 34px;
+    border :3px solid #73AD21;
+    padding: 10px;
+    width:200px;
+    height: 300px;
+
+
+}
+.search {
+  background: #063642;
+  color: #EEE8D5;
+  width: 90%;
+  min-width: 320px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 20px 30px;
+  z-index: 20;
+}
+
+.search h1 {
+  color: #EEE8D5;
+}
+
+
+#about{
+	
+	text-align: center;
+	
+}
+
+#skills{
+	
+	background-color:#BC8F8F;
+		
+}
+#resume{
+    background-color: #1743af; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+
+.contact{
+	
+	
+	
+}
+h1{
+    color: red;
+}
+
+
+/**
+sample css file
+**/
+#contact-form {
+   background-color:rgba(72,72,72,0.7);
+   padding: 10px 20px 30px 20px;
+   max-width:100%;
+   float: left;
+   left: 50%;
+   position: absolute;
+   margin-top:30px;
+   margin-left: -260px;
+   border-radius:7px;
+   -webkit-border-radius:7px;
+   -moz-border-radius:7px;
+}
+
+#contact-form input,   
+#contact-form select,   
+#contact-form textarea,   
+#contact-form label { 
+   font-size: 15px;  
+   margin-bottom: 2px;
+   font-family: Arial, san-serif;
+}
+
